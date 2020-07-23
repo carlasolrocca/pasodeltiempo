@@ -1,0 +1,62 @@
+/*=== sky ===*/
+
+.first-sky {  background-color: #1b0963;  }
+
+.second-sky { background-color: #b6a060;  }
+
+.third-sky {  background-color: #7a6d2b;  }
+
+.fourth-sky { background-color: rgb(213, 227, 228); }
+
+.fifth-sky {  background-color: #eb823c;  }
+
+/*=== flowers ===*/
+.elegidas {
+  animation: elegidas 5s;
+	animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.elegidas:hover {
+  transform:scale(1.25);
+}
+
+/*=== sun ===*/
+.sun1 {
+  opacity: 0;	
+  right: -5vw;
+}
+
+.sun2 {
+  opacity: 0.3;
+  right: -3vw;
+}
+
+.sun3 {
+  opacity: 0;
+  right: 75vw;
+}
+
+.sun4 {
+  opacity: 1;
+  right: 2vw;
+}
+
+.sun5 {
+  opacity: 1;
+  right: 40vw;
+}
+
+/*=== moon ===*/
+
+.moon1 {
+  left: 4vw;
+  opacity: 1;
+}
+.moon2 {
+  left: -2vw;
+  opacity: 0;
+}
+.moon3 { opacity: 0;	}
+.moon4 { opacity: 0;	}
+.moon5 { opacity: 0;	}
